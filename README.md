@@ -1,8 +1,5 @@
-backtracking
-============
-
 Backtracking Algorithm
-
+----------------------
 Backtracking is a general algorithm for finding all (or some) solutions to some computational problem, that incrementally builds candidates to the solutions, and abandons each partial candidate c ("backtracks") as soon as it determines that c cannot possibly be completed to a valid solution. [Here](http://en.wikipedia.org/wiki/Backtracking) is the detailed explanantion
 
 I have used it to implement solution to  8 queens problem.
