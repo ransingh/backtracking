@@ -145,6 +145,6 @@ module Chess
       pos
     end
   end # Position
-end
+end # Chess
 
 

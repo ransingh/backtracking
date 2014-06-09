@@ -1,8 +1,5 @@
 
 class BacktrackingProblem
-  def initialize(problem)
-
-  end
 
   def root()
     raise "sublass class must implement this #{__method__} method"

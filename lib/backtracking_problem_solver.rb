@@ -10,7 +10,6 @@ class BacktrackingProblemSolver
     @problem.root().each  do |s|
       backtrack(s)
     end
-
   end
 
   def backtrack(candiate_solution)
@@ -22,9 +21,9 @@ class BacktrackingProblemSolver
 
     while new_candidate_solution
       backtrack(new_candidate_solution)
+
       # try next sibling in the search solution tree
       new_candidate_solution = @problem.next_alternate_extension(new_candidate_solution)
-
     end
 
   end # backtrack
